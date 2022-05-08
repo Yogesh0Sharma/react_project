@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@300;400;600&family=Raleway:wght@300;400;500;600&family=Water+Brush&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}
+
+.popular_heading{
+    /* text-align: center; */
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-weight: 400;
+}
+
+.veggie_heading{
+  margin-top: 70px;
+}
+
+
+img.food_image {
+  width: 100%;
+  vertical-align: bottom;
+  border-radius: 20px;
+}
+
+/* .cardOuter {
+  width: 25%;
+} */
+
+.card {
+  /* width: 25%; */
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.211);
+  border-radius: 20px;
+}
+
+.food_title {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 71%;
+}
+
+.splide__pagination__page{
+  background: #5f6570 !important;
+}
+
+.splide__pagination__page.is-active{
+  background: black !important;
+}
+
+.splide__pagination{
+  bottom: -1.5rem !important;
+}
+
+.cuisen_icon_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodCatagory{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.foodCatagory .cardOuter{
+  margin-top: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 23%;
+}
+
+.logo{
+  /* width: 100px ; */
+  font-size: 24px;
+  font-family: 'Water Brush', cursive;
+  display: flex;
+  align-items: center;
+}
+
+.logo svg{
+  margin-right: 2px;
+}
+
+.cuisen_icon_div{
+  margin-bottom: 50px;
+}
+
+.cuisen_icon_div span {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  /* background: aquamarine; */
+  background: #0c1628cc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.cuisen_icon_div span svg {
+  color: white;
+  font-size: 22px;
+}
+
+.active span{
+  background-color: #2b477a;
+}
+
+.active span svg{
+  color: white;
+}
+
+
+.btn_active{
+    background: #0c1628cc !important;
+    color: white;
+    font-weight: bold;
+}
+
+.information_outer {
+  display: flex;
+}
+.info_left {
+  width: 40%;
+  padding: 15px;
+}
+
+.info_right {
+  width: 60%;
+  padding: 15px 50px;
+  box-sizing: border-box;
+}
+
+.info_right a{
+  color: black;
+  font-weight: 600;
+}
+
+.button_div button {
+  padding: 10px 15px;
+  margin-right: 12px;
+  background: transparent;
+  border: 1px solid #0c1628cc;
+  outline: none;
+  cursor: pointer;
+}
+
+.info_div {
+  margin-top: 35px;
+}
+
+.nav{
+  text-decoration: none;
+  color: #0c1628cc;
+}
+
+.ingri_list{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.dish_name{
+  margin-bottom: 20px;
+  margin-left: 11px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+
+.tick_icon{
+  width: 4%;
+}
+
+.mar{
+  margin-top: 21px;
+}
+
+.serch_outer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serch_outer input{
+  height: 37px;
+    width: 41%;
+    outline: none;
+    background: #0c1628cc;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 19px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.serch_outer button{
+  height: 35px;
+  width: 35px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #0c1628cc !important;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.search_parent{
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.splide__pagination{
+  display: none;
+}
